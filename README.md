@@ -59,3 +59,9 @@ To evaluate the model performance in production, we propose the following method
     ```
 
 2. **Response**: The API will return an answer based on the document. If no relevant answer is found, it will respond with "I don't know the answer".
+
+### Using the Script from Terminal
+
+1. **Upload a PDF from Terminal**: You can upload a PDF file directly from the terminal using the `curl` command as shown above.
+
+2. **Ask Questions from Terminal**: You can ask questions directly from the terminal using the `curl` command as shown above. If the question is irrelevant to the PDF, the response will be "I don't know the answer".
